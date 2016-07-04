@@ -56,6 +56,11 @@ body{
 	background:#999;
 	font-family:Verdana;	
 }
+#p{
+	font-size:20px;
+	text-align:justify;
+ color:#09F;	
+}
 @media screen and (max-width: 360px) {
  body{
 	
