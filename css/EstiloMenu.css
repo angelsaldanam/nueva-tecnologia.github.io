@@ -1,0 +1,36 @@
+@charset "utf-8";
+
+/*estilo para el identificar menu*/
+#menu {
+	background-color:#3AB1BE;
+	margin:0;
+	padding:0px;
+	list-style:none;
+	width:100%;
+	font-size:.9em;
+	float:left;
+	border:2px solid #F4F4F4;
+}
+/*estilo para la etiqueta a*/	
+#menu li a{
+	color:#666;
+	float:left;
+	text-decoration:none;
+	padding:30px;
+}
+/*estilo para la etiqueta a usando hover*/	
+#menu li a:hover{
+	background-color:#CCC;
+	color:#543ED2;
+}
+/*media cuery*/
+@media(max-width: 360px){
+	#menu{
+		width:100%;
+}
+	#menu li a{
+		width:100%;	
+	}
+#menu li a:hover{
+	width:100%;
+}
